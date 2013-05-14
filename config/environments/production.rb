@@ -20,6 +20,9 @@ Bookmarkletapp::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  #for use with Devise
+  config.action_mailer.default_url_options = { :host => 'fierce-fjord-3834.herokuapp.com' }
+
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 

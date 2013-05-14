@@ -9,7 +9,7 @@ gem 'rails', '3.2.12'
 group :development, :test do
   gem 'sqlite3'
 end
-group :production do
+group :production do #for Heroku
   gem 'pg'
 end
 # Gems used only for assets and not required
@@ -27,6 +27,9 @@ end
 gem 'jquery-rails'
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+gem 'devise' #for user login
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
