@@ -3,6 +3,9 @@ Bookmarkletapp::Application.routes.draw do
 
 
   devise_for :users, controllers: {omniauth_callbacks: "omniauth_callbacks"}
+  # devise_scope :users do
+  #   get 'auth/:provider/callback' => 'callbacks#omniauth_callbacks'
+  # end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

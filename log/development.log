@@ -1104,3 +1104,844 @@ Migrating to CreateAuthentications (20130607154223)
   [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130607154223')[0m
   [1m[35m (72.8ms)[0m  commit transaction
   [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-07 12:10:36 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (52.9ms)
+Compiled omniauth_callbacks.css  (105ms)  (pid 28846)
+Compiled application.css  (190ms)  (pid 28846)
+Compiled omniauth_callbacks.js  (147ms)  (pid 28846)
+Compiled application.js  (217ms)  (pid 28846)
+Completed 200 OK in 823ms (Views: 822.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /home.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /products.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /omniauth_callbacks.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:38 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:39 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:39 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (164ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:39 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:39 -0400
+Served asset /bootstrap.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:39 -0400
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:39 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (58ms)
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:39 -0400
+Served asset /omniauth_callbacks.js - 200 OK (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:39 -0400
+Served asset /products.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:39 -0400
+Served asset /application.js - 304 Not Modified (64ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.4/app/views/devise/shared/_links.erb (3.8ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.4/app/views/devise/registrations/new.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 286ms (Views: 59.7ms | ActiveRecord: 50.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /omniauth_callbacks.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:46 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /home.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2013-06-07 12:10:47 -0400
+Served asset /omniauth_callbacks.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2013-06-07 12:10:53 -0400
+
+
+Started GET "/users/auth/facebook/callback?code=AQBpAFFtfLQzvYPpGNET3O9x2ka6RvGWrWOz9gYGmldPhJjZhcqPMFkQ_cXsM752sLn0w8cXaUjhd7H2POKdkly0KH7mWTPdnaRQMeI_H_5jqeRTTFrS90aFl-nGoGBNRQStIsgEjntispMVjRfG6lValyl1MpAMfXnEpzICFH2KjPv96ReFvdeaTSRPPh8QXy1Xy8KOEtFtrYkS0fhVVCTKKXHaoNSSAx7Ze2ScKR24l9elKWazLevN5zS8X7LcBBw4HQdQGnLwLifHjocp_KRveUBiFXfhwD3k5JywBbZ0-rW6DRsqattDYFk6rYmJ6z8&state=d84a0eee580f8dc7decb8a4908710b886be11e0262dad755" for 127.0.0.1 at 2013-06-07 12:10:54 -0400
+
+AbstractController::ActionNotFound (The action 'facebook' could not be found for OmniauthCallbacksController):
+  actionpack (3.2.12) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.12) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:394:in `call_app!'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:356:in `callback_phase'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:77:in `callback_phase'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:157:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__52716834__call__686745789__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.2ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2013-06-07 12:12:20 -0400
+
+
+Started GET "/users/auth/facebook/callback?code=AQAcUV029esulmGJjdt0OHhreLwzK3QOIwb5dy9tgOvaim3hXaqUus7pl8GvY347VGTdf-04O-WHlQe4zUoTm_Ep79qpT9wDBv9Ec6nKZtmGELUG2NNsbzqRfNI3PFzdCAsONjoD_jksJqkGtJDVJe59SZXhRo8ZmIPXcd3AneBztXjAzgHVrEKG-Ud7GdKwdHuDSHjCTgnD8PmXBL1dNTDoDuguUaQtO8Dje88MgaU1Bquy2m-6Sq2xO40m8JF7KEX2SkHEhl9Dn-ZUqLxIBjQhrx3zC1_IyVFvlkdBf5MpX_I6bSa6p2oYLzbj5j8ID1E&state=1d1c5ad19bbf03d77551fca49b171f46104c29bea2c5be51" for 127.0.0.1 at 2013-06-07 12:12:21 -0400
+
+SyntaxError (/home/vmplanet/Sites/bookmarkletapp/app/controllers/omniauth_callbacks_controller.rb:36: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:394:in `call_app!'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:356:in `callback_phase'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:77:in `callback_phase'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:157:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__52716834__call__686745789__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (53.0ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2013-06-07 12:12:59 -0400
+
+
+Started GET "/users/auth/facebook/callback?code=AQCSDsqqy5-Qltng0Rtbhb_rWj-DM0PVup-MDpqHTtFSj7znj5dpQ2d-VoPDatu6Cko8ooS1dz8y5n4TTSlh1e688sJUoJWxF0lVVZ16Ot6G7B7IDVkKsiwQq14DzroR9Zcr1JkWWD_KxXEYOE0ymjmoRGxUJt7iO4HIyGhp0u7hWDQ6uYeTsQ4A0ClYaro2XtPrA8GMcNhkobBi-YByeep_HEQ-8Z0H8rJfTt8uaBUWyqxpOQES236sXeK2hKxh5BqLfwcEiOdlk9tV5_8lGXVqMm4Svg4b249ebXMUItF3TJrauDiAv8mt2xeyApalXXk&state=24fcda16c48b3faebfbb795950597f83794224428507bc2b" for 127.0.0.1 at 2013-06-07 12:13:00 -0400
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQCSDsqqy5-Qltng0Rtbhb_rWj-DM0PVup-MDpqHTtFSj7znj5dpQ2d-VoPDatu6Cko8ooS1dz8y5n4TTSlh1e688sJUoJWxF0lVVZ16Ot6G7B7IDVkKsiwQq14DzroR9Zcr1JkWWD_KxXEYOE0ymjmoRGxUJt7iO4HIyGhp0u7hWDQ6uYeTsQ4A0ClYaro2XtPrA8GMcNhkobBi-YByeep_HEQ-8Z0H8rJfTt8uaBUWyqxpOQES236sXeK2hKxh5BqLfwcEiOdlk9tV5_8lGXVqMm4Svg4b249ebXMUItF3TJrauDiAv8mt2xeyApalXXk", "state"=>"24fcda16c48b3faebfbb795950597f83794224428507bc2b"}
+Completed 500 Internal Server Error in 24ms
+
+NoMethodError (undefined method `from_omniauth' for #<Class:0x9ef9878>):
+  app/controllers/omniauth_callbacks_controller.rb:24:in `all'
+
+
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.1ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2013-06-07 12:15:36 -0400
+
+
+Started GET "/users/auth/facebook/callback?code=AQB4tsBu3Wv-hRUIF1DFY2-UmC8S_e29i9Ek-4E-YNhNA5TIVrP3KvnUas41V2UEgWJkAv3pqyya28WJmdyiN2u182F_JK6l_UvyzvMWmMgQrxom4fyY4nqwhm0qRDo64Q9IGZN6z-QWRulKd5hMOH60l2_r5g_-_V88sWcWfAH2NrMRoRWPplfNlF2J9D-fzUl5vPOAigfr8Ez4Bqqtn771h31cyCck5luTT0tT7-HbGOxzYB8HbYCC6cgYDa1tIdY0vXdVuoJV8iEM2DjZtI3Mdx5FKoP79QSUr_YaqVPHoGgs5ogaaA7x9MqzoITDYpg&state=d555bb994985e8779585378b325cb39e331e9c32431250e8" for 127.0.0.1 at 2013-06-07 12:15:37 -0400
+
+ActionController::RoutingError (uninitialized constant CallbacksController):
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:394:in `call_app!'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:356:in `callback_phase'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:77:in `callback_phase'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:157:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__52716834__call__686745789__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2013-06-07 12:16:43 -0400
+
+
+Started GET "/users/auth/facebook/callback?code=AQAjOzl4MUDAAhZyTKpYZH_2TLp9IiCehZLAhzvSwFfpIzej05dZE10qjj37Tr1LOo91y6OriIbjjUkaouGG1lbqCyGTnke67QOr6woXMLiJjNVkfjcbA4YX1BdcjsEz53wWhgRCINCHmHXvlyMkDtU4n1r66aMa-7bDjfgbZtrwG_N-xoJpEYDDorOSKgcSes8yB_i4OSMUDqmo8x1X2VXrI104x4Ci4w-bcb_d1Gup96kA2Hg9z4jlykwEM154m9zpKtxcgHbm8mRIgavlfxauFf8a4dJWOYvZQQwihXqbtVlawF1o06ZxH64KuJuWSHY&state=90ed60f757673348fcf87e11f271c2f284c29b171ecb9477" for 127.0.0.1 at 2013-06-07 12:16:43 -0400
+
+AbstractController::ActionNotFound (The action 'facebook' could not be found for OmniauthCallbacksController):
+  actionpack (3.2.12) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.12) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:394:in `call_app!'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:356:in `callback_phase'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:77:in `callback_phase'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:157:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__52716834__call__686745789__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vmplanet/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2013-06-07 12:23:11 -0400
+
+
+Started GET "/users/auth/facebook/callback?code=AQDSTTkOgG-8-C27q0Y6eqjQKLyWk6lAqLq1vR3Q0sDykUhzI1iJTTZYpCW7N1PBjRFaZAVpi5KIKl7V6D37pLfW4JPNym7P8L_9_eIHzhWNozSgVZj6vs3Cp8csp6NNMeINXx6fke_VqCmyLkByGeRrSSZvEQ4iRJj194hDO1P9BkQig_G3mt1PbRw_ESbLiczWory10BTwQ3fpna5Fkbob5l5mHFC7ZkGx9nvUCvW1CZyULOMzbnJGcgmLASYgkVJlAOGaZaM2vzfcgrscCIieSB3GcswwwIlRKVtPtMRh6Ntk5A0HG4W1w9gWNf0YsqY&state=e20fcd3c556881c9ee8c31c2cb28d059d2517b47ec084a91" for 127.0.0.1 at 2013-06-07 12:23:13 -0400
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQDSTTkOgG-8-C27q0Y6eqjQKLyWk6lAqLq1vR3Q0sDykUhzI1iJTTZYpCW7N1PBjRFaZAVpi5KIKl7V6D37pLfW4JPNym7P8L_9_eIHzhWNozSgVZj6vs3Cp8csp6NNMeINXx6fke_VqCmyLkByGeRrSSZvEQ4iRJj194hDO1P9BkQig_G3mt1PbRw_ESbLiczWory10BTwQ3fpna5Fkbob5l5mHFC7ZkGx9nvUCvW1CZyULOMzbnJGcgmLASYgkVJlAOGaZaM2vzfcgrscCIieSB3GcswwwIlRKVtPtMRh6Ntk5A0HG4W1w9gWNf0YsqY", "state"=>"e20fcd3c556881c9ee8c31c2cb28d059d2517b47ec084a91"}
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `from_omniauth' for #<Class:0x9342dcc>):
+  app/controllers/omniauth_callbacks_controller.rb:24:in `all'
+
+
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.4ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2013-06-07 12:27:19 -0400
+
+
+Started GET "/users/auth/facebook/callback?code=AQDtqIXf9ZA3nJWtA5V3e4FiLfrVUvd_tNfKfxYsOCOFWgM1IFwhMRiAv6hBccnetyFa1mhSx9fBaCchlRPMk2_mMOhWm7jb1F5nstRY_FZVG3pHGl2EpX2DZ8ECsJwEvzvRZLs788-hRSpZ72VQidpM1yVx2lgmJ0e7AM6q4gbcLBMkrEmrOcqUbNkPc7qBKDIOLpDvLHZ97kC_WXk0JFDMyqsrubiuotjX-g2fH7ga0D-Ouux3h1os8rhhewDAbkCnO6EEB7GiW-htwPetazW9sRejS9IiufEYY-rpLiU-HO2lxPKFPLh1BgBdf6VsR7c&state=5310641ba8fb37f19ad40b0bcec71cf4f69bcab009e179d2" for 127.0.0.1 at 2013-06-07 12:27:19 -0400
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQDtqIXf9ZA3nJWtA5V3e4FiLfrVUvd_tNfKfxYsOCOFWgM1IFwhMRiAv6hBccnetyFa1mhSx9fBaCchlRPMk2_mMOhWm7jb1F5nstRY_FZVG3pHGl2EpX2DZ8ECsJwEvzvRZLs788-hRSpZ72VQidpM1yVx2lgmJ0e7AM6q4gbcLBMkrEmrOcqUbNkPc7qBKDIOLpDvLHZ97kC_WXk0JFDMyqsrubiuotjX-g2fH7ga0D-Ouux3h1os8rhhewDAbkCnO6EEB7GiW-htwPetazW9sRejS9IiufEYY-rpLiU-HO2lxPKFPLh1BgBdf6VsR7c", "state"=>"5310641ba8fb37f19ad40b0bcec71cf4f69bcab009e179d2"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '589780244' LIMIT 1[0m
+Completed 500 Internal Server Error in 158ms
+
+NoMethodError (undefined method `username=' for #<User:0xa0451dc>):
+  app/models/user.rb:18:in `block in from_omniauth'
+  app/models/user.rb:15:in `from_omniauth'
+  app/controllers/omniauth_callbacks_controller.rb:24:in `all'
+
+
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.3ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2013-06-07 12:29:39 -0400
+
+
+Started GET "/users/auth/facebook/callback?code=AQC-xamNJShdpWSAooNcWBYLzHWWv1VuJxAl4l_gV4VlT9ONWSONaqbSQvGrqLNoEGWTdeVbftls26QYbPYv_gU1m2H0SLo7f-skTeTsLN8ESkjTqBBe9_cWwJ9bhj14mV1BJWdc4ASqbXPpFy_o5NRDv-xH_xUu1Hd0w32fP__or5D19LlkqCJszYT4MufvXPwZ2QQqoLbt3mf2tRGKbqwFG2BAC5tBl2bS0vzYMubbqmVwefIjaU5SyYrFLGupbij0E7U4ohp36j3lEMwXRGv_Y7975vU0cqpBawVECyggKw5fpYZPYaFRcucdDmwTyvk&state=37c462d2b1318d5ad1fbbb2a536413995239e90b0b6386f3" for 127.0.0.1 at 2013-06-07 12:29:40 -0400
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQC-xamNJShdpWSAooNcWBYLzHWWv1VuJxAl4l_gV4VlT9ONWSONaqbSQvGrqLNoEGWTdeVbftls26QYbPYv_gU1m2H0SLo7f-skTeTsLN8ESkjTqBBe9_cWwJ9bhj14mV1BJWdc4ASqbXPpFy_o5NRDv-xH_xUu1Hd0w32fP__or5D19LlkqCJszYT4MufvXPwZ2QQqoLbt3mf2tRGKbqwFG2BAC5tBl2bS0vzYMubbqmVwefIjaU5SyYrFLGupbij0E7U4ohp36j3lEMwXRGv_Y7975vU0cqpBawVECyggKw5fpYZPYaFRcucdDmwTyvk", "state"=>"37c462d2b1318d5ad1fbbb2a536413995239e90b0b6386f3"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '589780244' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Redirected to http://localhost:3000/users/sign_up
+Completed 302 Found in 72ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.4/app/views/devise/shared/_links.erb (1.9ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.4/app/views/devise/registrations/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 49ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /omniauth_callbacks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:41 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:42 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:42 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:42 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:42 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:42 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:42 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:42 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:42 -0400
+Served asset /omniauth_callbacks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:42 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:42 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2013-06-07 12:29:51 -0400
+
+
+Started GET "/users/auth/facebook/callback?code=AQAK1SkCnDtEB4dE7jSPyjIjRi3VJ5KZz9zkeqg2ugaUOwe14uLMMWtcEZtxWzSvVCQfa9yAb60M03NwU12RXKlDzr2DPoKlARoOSMXWAPUQCyM3qaBMxNfv54mF_Ne7aw5Jvpp5ZXW94ievOEa5MJcdatixQU-RugVzXPHJ2mBuorRMzq84XASC05HlhChQ_yFWfbYXkwul4ffNbX1Wrs1kTj6Qge2nPodZQz2gax6aZorCq0GwMop5aGIAXeUkKVwA7lHT8yxhw8-PqRRSNXDT9jdELIecYr6N0c2UiDzReSeoNPOIT8AUczq8NAtAQSc&state=ebf9a6da494e1e6835d3e54c09d376c4c3636ec62c3c7491" for 127.0.0.1 at 2013-06-07 12:29:52 -0400
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQAK1SkCnDtEB4dE7jSPyjIjRi3VJ5KZz9zkeqg2ugaUOwe14uLMMWtcEZtxWzSvVCQfa9yAb60M03NwU12RXKlDzr2DPoKlARoOSMXWAPUQCyM3qaBMxNfv54mF_Ne7aw5Jvpp5ZXW94ievOEa5MJcdatixQU-RugVzXPHJ2mBuorRMzq84XASC05HlhChQ_yFWfbYXkwul4ffNbX1Wrs1kTj6Qge2nPodZQz2gax6aZorCq0GwMop5aGIAXeUkKVwA7lHT8yxhw8-PqRRSNXDT9jdELIecYr6N0c2UiDzReSeoNPOIT8AUczq8NAtAQSc", "state"=>"ebf9a6da494e1e6835d3e54c09d376c4c3636ec62c3c7491"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '589780244' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Redirected to http://localhost:3000/users/sign_up
+Completed 302 Found in 17ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-06-07 12:29:52 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.4/app/views/devise/shared/_links.erb (1.6ms)
+  Rendered /home/vmplanet/.rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.4/app/views/devise/registrations/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 46ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:52 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /omniauth_callbacks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /omniauth_callbacks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-07 12:29:53 -0400
+Served asset /application.js - 304 Not Modified (3ms)
